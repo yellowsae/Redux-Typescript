@@ -24,7 +24,7 @@ const Counter = () => {
   const [incrementAmount, setIncrementAmount] = useState<string>('2')
 
 
-  // 具体使用的数据
+  // 格式化数据
   const incrementValue = Number(incrementAmount) || 0
 
   return (
